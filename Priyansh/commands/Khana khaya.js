@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	if (event.body.indexOf("Khana khaya bot")==0 || event.body.indexOf("khana khaya bot")==0 || event.body.indexOf("Khana khaya")==0 || event.body.indexOf("khana khaya")==0) {
 		var msg = {
 				body: "🥀🥀🥀",
-				attachment: fs.createReadStream(__dirname + `/noprefix/khana_khaliya.mp3`)
+				attachment: fs.createReadStream(__dirname + `/noprefix/apka_khana.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("💗", event.messageID, (err) => {}, true)
