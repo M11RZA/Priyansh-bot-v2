@@ -64,7 +64,7 @@ module.exports.run = async function ({ api, event, args }) {
       }
 
       await api.sendMessage({
-        body: `🎥 | Apki video ko"${title}" download karliya gaya hai!\n𝑪𝑹𝑬𝑨𝑻𝑬: 𝑺𝑯𝑨𝑨𝑵 𝑲𝑯𝑨𝑵💞`,
+        body: `🎥 | Apki video ko"${title}" download karliya gaya hai!\n𝐂𝐑𝐄𝐀𝐃𝐈𝐓: 𝐒𝐀𝐌𝐄𝐄𝐑 𝐊𝐇𝐀𝐍💞`,
         attachment: fs.createReadStream(filePath)
       }, event.threadID);
 
