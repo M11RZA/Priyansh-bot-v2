@@ -4,7 +4,7 @@ module.exports.config = {
     hasPermssion: 0,
     credits: "ARYAN",
     description: "THIS BOT WAS MADE BY MR ARYAN",
-    commandCategory: "SHAYRI PROFILE",
+    commandCategory: "SHAYERI PROFILE",
     cooldowns: 0
 };
 
