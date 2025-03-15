@@ -129,7 +129,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      };
         if ((event.body.toLowerCase() == "😿")) {return api.sendMessage(" Biliya kab se rone lagi ajeb hai😂😂🤣", threadID);
      };
-      if ((event.body.toLowerCase() == "ayesha")) {return api.sendMessage("bahot pyari Ladkı Hai Ayesha MashaAllah  💕💕❤️🤭 ", threadID);
+      if ((event.body.toLowerCase() == "Jannat")) {return api.sendMessage("😻  ✄𝐁𝐚𝐡𝐔t🥀 𝐩𝐘𝐚𝐑𝐢🥀 𝐇𝐞🥀 🌬️☞🌏 𝐉aȠȠaƬ🥀 😻🥀 𝐁𝐚𝐁𝐔🥀 🌙🥀 M𝐚𝐒H𝐋𝐋𝐚𝐇♡🧡>³••🕊️🍎😍🌿🥀 ", threadID);
      };
                 if ((event.body.toLowerCase() == "😯")) {return api.sendMessage("mho me makhi gus jayegi yar band karo", threadID);
                };
